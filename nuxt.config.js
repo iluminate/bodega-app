@@ -18,7 +18,7 @@ export default {
       { rel: 'stylesheet', href: 'plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css' },
       { rel: 'stylesheet', href: 'plugins/icheck-bootstrap/icheck-bootstrap.min.css' },
       { rel: 'stylesheet', href: 'plugins/jqvmap/jqvmap.min.css' },
-      { rel: 'stylesheet', href: 'dist/css/adminlte.min.css' },
+      { rel: 'stylesheet', href: 'css/adminlte.min.css' },
       { rel: 'stylesheet', href: 'plugins/overlayScrollbars/css/OverlayScrollbars.min.css' },
       { rel: 'stylesheet', href: 'plugins/daterangepicker/daterangepicker.css' },
       { rel: 'stylesheet', href: 'plugins/summernote/summernote-bs4.min.css' },
@@ -37,9 +37,9 @@ export default {
       { src: 'plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js', body: true },
       { src: 'plugins/summernote/summernote-bs4.min.js', body: true },
       { src: 'plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js', body: true },
-      { src: 'dist/js/adminlte.js', body: true },
-      { src: 'dist/js/demo.js', body: true },
-      { src: 'dist/js/pages/dashboard.js', body: true }
+      { src: 'js/adminlte.js', body: true },
+      { src: 'js/demo.js', body: true },
+      { src: 'js/pages/dashboard.js', body: true }
     ],
     bodyAttrs: {
       class: 'hold-transition sidebar-mini layout-fixed'
