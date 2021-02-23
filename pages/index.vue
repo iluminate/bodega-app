@@ -601,6 +601,7 @@
 </template>
 
 <script>
+
 export default {
   layout: 'adminLte',
   components: {}
